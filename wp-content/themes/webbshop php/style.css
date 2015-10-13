@@ -1,0 +1,189 @@
+/*Theme Name:Webbshop*/
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+
+
+*{
+	font-family: sans-serif;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	position: fixed;
+	top:0;
+	left: 0;
+	right: 0;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	overflow: hidden;
+	z-index: 10;
+	height: 125px;
+	background-color: #fff;
+}
+
+#headercontent{
+	position: relative;
+}
+
+#searchandshop{
+	position: absolute;
+	right: 10px;
+	cursor:pointer;
+}
+
+#searchandshop img{
+	width: 40px;
+	clear: left;
+	padding-top: 10px;
+}
+
+
+
+header nav ul{
+	list-style: none;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+header nav ul li{
+	float: left;
+	padding: 10px;
+
+}
+
+header a{
+	color: #000;
+	text-decoration: none;
+}
+
+header nav ul li.current-menu-item a:link,
+header nav ul li.current-menu-item a:visited,
+header nav ul li a:hover{
+border-bottom: solid 2px #888;
+padding-bottom: 3px;
+
+}
+
+
+
+#main{
+	margin: 0 auto;
+	margin-top: 145px;
+	width: 80%;
+}
+
+#flexslider{
+	width: 100%;
+	list-style: none;
+	padding: 0;
+	margin:0;
+}
+
+#flexslider li img{
+	width: 100%;
+	margin: auto;
+
+}
+
+#gallery{
+	margin:0;
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+	margin: -6px;
+	margin-top: 10px;
+
+}
+
+#gallery li{
+	width: 25%;
+	float: left;
+	margin: 0;
+	padding: 0;
+	cursor: pointer
+}
+
+#gallery li:nth-child(4n+1){
+	clear:left;
+}
+
+#gallery li img{
+	width:100%;
+}
+
+.inner{
+	margin: 6px;
+}
+
+footer{
+	overflow: hidden;
+	margin-bottom: 40px;
+	width: 100%;
+}
+
+footer .site-nav ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+footer .site-nav ul li{
+	padding: 0;
+	margin: 0;
+	line-height: 1.5em;
+	clear: left;
+}
+
+footer .site-nav ul li a{
+	text-decoration: none;
+	color: #000;
+}
+
+footer .site-nav ul li a:hover{
+	color:#888;
+}
+
+
+footer h2{
+	margin-bottom: 5px;
+}
+
+/*Product*/
+
+#product{
+	width: 60%;
+	float:left;
+}
+
+#productinfo{
+	width: 40%;
+	float: right;
+}
+
+#tipgallery{
+	padding-left: 0;
+	margin-left: -5px;
+}
+
+#tipgallery li{
+	float:left;
+	width:33%;
+	list-style: none;
+}
+
+#tipgallery li img{
+	width:100%;
+}
